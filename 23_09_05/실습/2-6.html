@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      width: 350px;
+      height: 600px;
+      margin: 0 auto;
+      border: 1px solid black;
+      text-align: center;
+      position: relative;
+    }
+
+    .container {
+      width: 310px;
+      margin: 20px auto;
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      max-width: 310px;
+      height: auto;
+      z-index: 1;
+    }
+
+    .p-background {
+      background-color: orange;
+      opacity: 0.7;
+      padding: 10px;
+      position: absolute;
+      width: 90%;
+      bottom: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/profile1.jpg" alt="Profile Image">
+    <div class="p-background">
+      <strong>Name</strong>
+    </div>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde officiis ad nostrum. Laboriosam mollitia similique provident fuga tenetur saepe sit, amet eaque neque eius quaerat expedita ea illum veniam.</p>
+</body>
+</html>
